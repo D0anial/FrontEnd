@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Day Mode */
+.light_body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f4f3;
+    color: #333;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 70px;
+    color: #887453;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.nav-light {
+    background-color:#e6e0d9;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.card .btn {
+    background-color: #bfa67a;
+    color: white;
+    font-weight: bold;
+}
+
+.card .btn:hover {
+    background-color: #887453;
+}
+
+footer {
+    text-align: center;
+    background-color: #c8beb3;
+}
+
+
+
+/* Dark Mode */
+.dark_body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #282828;
+}
+
+.nav-dark {
+    background-color:#655c5c;
+}
+
+.dark_body .main-title {
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.dark_body .title {
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.dark_body .card {
+    color: #FFFFFF;
+    background-color: #5d5858;
+} 
+
+.dark_body .card .btn {
+    background-color: #827d7d;
+    color: white;
+    font-weight: bold;
+}
+
+.dark_body .card .btn:hover {
+    background-color: #b0afad;
+}
+
+.dark_body footer {
+    background-color: #655c5c;
+}
