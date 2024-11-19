@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const nextBtns = document.querySelectorAll(".next-btn");
   const backBtns = document.querySelectorAll(".back-btn");
   const sign_up = document.getElementById("sign-up")
+  const profile = document.getElementById("profile")
   const greetingContainer = document.getElementById("greeting");
-
   let currentStep = 0;
 
   // Check if user is already logged in and display greeting if so
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function displayGreeting() {
     const savedData = JSON.parse(localStorage.getItem("formData"));
     if (savedData && savedData.name) {
-      greetingContainer.innerText = `Welcome back, ${savedData.name}!`;
+      greetingContainer.innerText = `Welcome back, ${savedData.name}!\nTime to start studying`;
     }
   }
 
@@ -85,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   sign_up.addEventListener("click", (event) => {
-    event.preventDefault();
     if (isUserLoggedIn()) {
       localStorage.clear()
       form.style.display = "block";
