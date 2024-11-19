@@ -5,7 +5,7 @@ const closeFormBtn = document.getElementById('closeFormBtn');
 const pashalko = document.getElementById('pashalko');
 let sound = new Audio('img/sound.mp3')
 
-const body = document.body;
+const bod = document.body;
 const colors = ['#FFF', '#FFD700', '#FF6347', '#8A2BE2', '#20B2AA', '#FF4500', '#ADFF2F'];
 let currentColorIndex = 0;
 
@@ -30,16 +30,16 @@ pashalko.addEventListener('click', function() {
     sound.play()
 })
 
-body.addEventListener('keydown', (e) => {
+bod.addEventListener('keydown', (e) => {
     if (e.code === 'ArrowLeft') {
         currentColorIndex--; 
-        body.style.backgroundColor = colors[currentColorIndex];
+        bod.style.backgroundColor = colors[currentColorIndex];
         if (currentColorIndex === 0) currentColorIndex = colors.length;
     }
     else if (e.code === 'ArrowRight') {
         currentColorIndex++;
         if (currentColorIndex === colors.length) currentColorIndex = 0;
-        body.style.backgroundColor = colors[currentColorIndex];
+        bod.style.backgroundColor = colors[currentColorIndex];
     }
 });
 

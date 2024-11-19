@@ -51,11 +51,11 @@ footer {
 .dark_body {
     font-family: Arial, sans-serif;
     background-color: #181818;
-    color: #282828;
+    color: #FFF;
 }
 
 .nav-dark {
-    background-color:#655c5c;
+    background-color:#3c3c3c;
 }
 
 .dark_body .main-title {
@@ -72,7 +72,7 @@ footer {
 
 .dark_body .card {
     color: #FFFFFF;
-    background-color: #5d5858;
+    background-color: #272727;
 } 
 
 .dark_body .card .btn {
@@ -86,5 +86,5 @@ footer {
 }
 
 .dark_body footer {
-    background-color: #655c5c;
+    background-color: #3c3c3c;
 }
