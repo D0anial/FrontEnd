@@ -34,10 +34,13 @@
     background-color: #bfa67a;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .card .btn:hover {
     background-color: #887453;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 footer {
@@ -79,10 +82,13 @@ footer {
     background-color: #827d7d;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .dark_body .card .btn:hover {
     background-color: #b0afad;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .dark_body footer {
